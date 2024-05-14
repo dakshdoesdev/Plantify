@@ -1,5 +1,8 @@
+# Teratender
 
-# daksh_verma_s_application1
+Teratender is a [brief description of your app].
+
+## Table of Contents
 ### Table of contents
 - [System requirements](#system-requirements)
 - [Figma design guidelines for better UI accuracy](#figma-design-guideline-for-better-accuracy)
@@ -22,47 +25,29 @@ https://docs.dhiwise.com/docs/Designguidelines/intro
 
 ### Check the UI of the entire app
 
-Check the UI of all the app screens from a single place by setting up the 'initialRoute'  to AppNavigation in the AppRoutes.dart file.
+Check the UI of all the app screens from a single place by setting up the 'initialRoute'  to AppNavigation in the AppRoutes.dart file.
 
 ### Application structure
 
 After successful build, your application structure should look like this:
+## Introduction
+[Provide a brief introduction to your app, including its purpose and any unique features or functionalities.]
 
-```
-.
-├── android                         - It contains files required to run the application on an Android platform.
-├── assets                          - It contains all images and fonts of your application.
-├── ios                             - It contains files required to run the application on an iOS platform.
-├── lib                             - Most important folder in the application, used to write most of the Dart code..
-    ├── main.dart                   - Starting point of the application
-    ├── core
-    │   ├── app_export.dart         - It contains commonly used file imports
-    │   ├── constants               - It contains static constant class file
-    │   └── utils                   - It contains common files and utilities of the application
-    ├── presentation                - It contains widgets of the screens 
-    ├── routes                      - It contains all the routes of the application
-    └── theme                       - It contains app theme and decoration classes
-    └── widgets                     - It contains all custom widget classes
-```
+## Features
+- [List the key features of your app.]
 
-### How to format your code?
+## Installation
+[Provide instructions on how to install and set up your app. Include any dependencies or system requirements.]
 
-- if your code is not formatted then run following command in your terminal to format code
-  ```
-  dart format .
-  ```
+## Usage
+[Explain how to use your app, including any user instructions or guides.]
 
-### How you can improve code readability?
+## Contributing
+[Explain how others can contribute to your project. Include guidelines for submitting bug reports, feature requests, or code contributions.]
 
-Resolve the errors and warnings that are shown in the application.
+## License
+[Specify the license under which your app is distributed. Include any terms or conditions for usage and redistribution.]
 
-### Libraries and tools used
+## Contact
+[Provide contact information for the project maintainers or contributors, including email addresses or social media profiles.]
 
-- BLoC - State management
-  https://bloclibrary.dev
-- cached_network_image - For storing internet image into cache
-  https://pub.dev/packages/cached_network_image
-
-### Support
-
-If you have any problems or questions, go to our Discord channel, where we will help you as quickly as possible: https://discord.com/invite/rFMnCG5MZ7
